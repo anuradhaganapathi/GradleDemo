@@ -28,7 +28,7 @@ plugins {
 }
 
 group = 'academy.learngradle'
-version = '0.0.1-SNAPSHOT'
+version = projectversion
 sourceCompatibility = '8'
 
 release {
