@@ -35,7 +35,7 @@ release {
 	preTagCommitMessage = '[Release]: '
 	tagCommitMessage = '[Release]: creating tag '
 	newVersionCommitMessage = '[Release]: new snapshot version '
-	tagTemplate = 'v${projectversion}'
+	tagTemplate = 'v${version}'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
